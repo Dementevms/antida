@@ -1,0 +1,24 @@
+{
+  "data":[
+    {
+      "score": 10,
+      "name": "Bob",
+      "age": 18
+    },
+    {
+      "score": 7,
+      "name": "Andrew",
+      "age": 14
+    },
+    {
+      "score": 100,
+      "name": "Martin",
+      "age": 20
+    },
+    {
+      "score": 80,
+      "name": "Anton",
+      "age": 20
+    }
+  ]
+}
