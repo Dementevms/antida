@@ -6,7 +6,7 @@ counter20.valueOf = function() {
 };
 
 counter30.valueOf = function() {
-  if(this.count === 36){
+  if (this.count === 36) {
     this.count = 32;
   }
   var r = this.count - 2;
