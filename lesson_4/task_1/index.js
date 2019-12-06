@@ -14,9 +14,12 @@ function Game(max = 3, tries = 10) {
       return;
     }
     n < this.random ? console.log('n <') : console.log('n >');
+
     this.tries--;
     if(this.tries <= 0){
       console.log('Game Over');
+    } else {
+      console.log('Tries left: ', this.tries);
     }
   };
 }
