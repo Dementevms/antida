@@ -4,16 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "lesson-8": "webpack-dev-server --config ./lesson_8/configs/webpack.config.dev.js --hide-modules --open --hot"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
     "jshint": "^2.10.3",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.0",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^4.0.0"
   }
 }
